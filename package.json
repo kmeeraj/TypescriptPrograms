@@ -1,0 +1,17 @@
+{
+  "name": "classtraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "es6": "./node_modules/.bin/http-server -c1 .",
+    "types-examples": "node ./sample/learning-types.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "typescript": "^3.2.4"
+  }
+}
